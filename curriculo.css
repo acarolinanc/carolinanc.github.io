@@ -1,0 +1,146 @@
+body {
+    background-color: rgb(173, 173, 173);
+}
+
+h3{
+    font-family: Andale Mono, monospace;
+    align-items: flex-start;
+}
+
+.principal{
+    background-color: white;
+    margin: 0 300px 0 300px;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 1fr 70%;
+    gap: 16px;
+}
+
+.lado_esquerdo{
+    background-color: #292929;
+}
+
+.foto_perfil{
+    margin: 50px 25% 50px 25%;
+    border-radius: 50%;
+}
+
+.titulo_contato{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.material-icons.icone_branco{
+    display: flex;
+    flex-direction: flex-start;
+    color: white;
+    height: 70%;
+    margin-left: 15px;
+}
+
+.bloco_informacao{
+    display: flex;
+    flex-direction: row;
+    margin-left: 16px;
+    margin-bottom: 16px;
+    }
+
+.descricao{
+    font-size: 15px;
+    color: white;
+    font-family:  Courier, monospace;
+    margin-right: 50px;
+    margin-left: 20px;
+    text-align: left;
+        
+}
+.titulo_habilidades{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+.idiomas{
+    color: white;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+h4{
+    font-family:Trebuchet MS, monospace;
+    text-align: center;
+    font-size: 36px;
+    }
+
+h5{
+    font-family: Trebuchet, monospace;
+    font-size: 14px;
+    text-align: left;
+}
+
+h6{
+    font-family: Trebuchet, monospace;
+    font-size: 14px;
+    text-align: left; 
+}
+
+h7{
+    font-family: Trebuchet, monospace;
+    font-size: 14px;
+    text-align: center; 
+
+}
+
+.lado_direito{
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: left;
+    background-color: white; 
+    }
+
+
+.nome{
+    font-size: 36px;
+    font-family: Andale Mono, monospace;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    text-decoration: dotted;
+}
+
+.experiencia{
+    align-items: stretch;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.cargo{
+    font-size: 14px;
+    text-align: justify;
+    color: rgb(49, 49, 49);
+    text-transform:initial;
+    font-family: Courier, monospace;
+
+}
+
+.formacao{
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
+
+.interesses{
+    align-items: center;
+    font-size: 16px;
+    text-align: center;
+    color: rgb(37, 37, 37);
+    text-transform: uppercase;
+    text-decoration: underline;
+}
